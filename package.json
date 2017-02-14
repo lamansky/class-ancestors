@@ -1,0 +1,37 @@
+{
+  "name": "class-ancestors",
+  "version": "1.0.0",
+  "description": "For a given class, returns an array with its parent class, the parent’s parent, and so on.",
+  "keywords": [
+    "class",
+    "function",
+    "prototype",
+    "chain",
+    "ancestors",
+    "extends"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/class-ancestors",
+  "repository": "lamansky/class-ancestors",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "class-chain": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
