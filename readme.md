@@ -11,7 +11,7 @@ npm install class-ancestors --save
 ## Usage
 
 ```javascript
-const getClassAncestors = require('.')
+const getClassAncestors = require('class-ancestors')
 
 class A {}
 class B extends A {}
