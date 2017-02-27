@@ -1,6 +1,6 @@
 {
   "name": "class-ancestors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "For a given class, returns an array with its parent class, the parent’s parent, and so on.",
   "keywords": [
     "class",
